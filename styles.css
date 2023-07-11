@@ -63,6 +63,17 @@ body {
   flex-wrap: wrap;
 }
 
+.info-box0 {
+  background-color: white;
+  height: 400px;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .info-box2 {
   background-color: #025a4e;
   height: 880px;
@@ -154,12 +165,16 @@ color: #025a4e;
     height: 1200px;
   }
 
+  .info-box0 {
+    height: 1000px;
+  }
+
   .info-box2 {
-    height: 1400px;
+    height: 1800px;
   }
 
   .info-box3 {
-    height: 2200px;
+    height: 2250px;
     background-color: #F2EFE9;
   }
 
@@ -196,6 +211,21 @@ color: #025a4e;
     margin-right: auto;
   }
 
+  .shrink-info {
+    height: 160px;
+  }
+
+  .shrink-info1 {
+    height: 300px;
+  }
+
+  .spacer {
+    height: 80px;
+  }
+
+  .grow-info {
+    height: 350px;
+  }
 }
 
 #nev {
