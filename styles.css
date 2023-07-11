@@ -1,100 +1,298 @@
 body {
-    font-family: 'Konkhmer Sleokchher', cursive;
+  font-family: 'Inknut Antiqua', serif;
     font-weight: 700;
     width: 100%;
+    background-color: #F2EFE9;
+}
+
+#neva {
+  background-color: rgba(242, 239, 233, .5);
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.nav-con {
+  text-align: center;
+  justify-content: center;
+}
+
+.nav a.nav-link.active {
+  background-color: #025a4e !important;
+  color: #F2EFE9;
+}
+
+.nav a.nav-link{
+  color: #025a4e;
+}
+
+#name {
+  color: #025a4e;
+}
+
+.color-gr {
+  color: #025a4e;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.title {
+  text-align: center;
+  margin-top: 250px;
+  padding-bottom: 200px;
+}
+
+.title p {
+  padding-top: 15px;
+  font-size: 22px;
+}
+
+.title h1 {
+  font-size: 52px;
+}
+
+.info-box {
+  background-color: white;
+  height: 400px;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.info-box2 {
+  background-color: #025a4e;
+  height: 400px;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.info-box3 {
+  background-color: white;
+  height: 800px;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.info-box4 {
+  background-color: #F2EFE9;
+  height: 400px;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.info-box2 .info {
+  color:#F2EFE9;
+}
+
+.info-box3 .info {
+  margin-top: 25px;
 }
 
 
-
-.typewriter h1 {
-    color: #FFF;
-    font-family: monospace;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(30, end),
-      blink-caret .5s step-end infinite;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange }
-  }
-
-  #col1 {
-    background-color: #000;
-    text-align: center;
-    color: #FFF;
-  }
-
-  #jlkpic {
-    border-radius: 50%;
-    border: 2px solid #FFF;
-    margin-top: 25px;
-  }
-
-  #col1 ul {
-    list-style: none;
-    text-align: center;
-    padding: 0%;
-  }
-
-  #col1 ul li {
-    align-items: center ;
-  }
-
-  #navbar {
-    justify-content: center;
-  }
-
-.back {
-    padding-right: 0px;
-    margin-right: 0px;
-    overflow: hidden;
+.info {
+  height: 360px;
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 45px;
 }
 
-  #hero {
+.scrollspyHeading {
+  margin-bottom: 25px;
+}
+
+.spacer {
+  height: 150px;
+}
+
+.center {
+  text-align: center;
+}
+
+.i {
+  color:#F2EFE9;
+  transition: 0.6s;
+}
+
+.i:hover {
+color: #025a4e;
+}
+
+@media screen and (max-width: 480px) {
+  
+  .info-box {
+    height: 800px;
+  }
+
+  .i {
+    margin: 0;
+  }
+
+  .photo{
+    width: 300px;
+  }
+
+}
+
+@media screen and (max-width: 1000px) {
+  
+  .info-box {
+    height: 1200px;
+  }
+
+  .info-box2 {
+    height: 700px;
+  }
+
+  .info-box3 {
+    height: 2200px;
+    background-color: #F2EFE9;
+  }
+
+  .photos {
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  img.photo{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .i {
+    margin-top: 15px;
+  }
+
+  .title {
+    padding-bottom: 150px;
+  }
+
+  #neva {
+    background-color: #F2EFE9;
+  }
+
+  .projects {
+    height: 200px;
+  }
+
+  .photos-box {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+#nev {
+  justify-content: end;
+}
+
+#pic {
+  width: 250px;
+  height:auto;
+  object-fit: cover;
+  margin-left: auto;
+  margin-top: 0;
+  margin-right: auto;
+}
+
+.btn {
+  background-color: #F2EFE9;
+  color: #025a4e;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #025a4e;
+}
+
+/* .projects {
+display: flex;
+flex-direction: column;
+} */
+
+
+
+.center-help {
+  display: table;
+  width: 100%;
+  height: 100vh;
+}
+
+#social-test {
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+}
+
+ .social li {
+    display: inline-block;
+  }
+  .social li a {
+    color:#025a4e ;
+    border-radius: 6px;
+    list-style-type: none;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    padding: 1%;
+    border: 1px solid #025a4e;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    transition: ease .3s;
+    &:hover {
+      color: white;
+      background-color: #025a4e;
+      border: 1px solid #025a4e;
+    }
+  }
+
+  #jlk-pic {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  #jlk-text {
+    padding-top: 25px;
+  }
+
+  .photo {
+    display: block;
+    width: 350px;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  ul.social {
+    margin: 0px;
     padding: 0px;
-    padding-left: 10px;
   }
 
-  #gradient {
-    position: relative;
+  .ll {
+    width: 350px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+   padding: 0px;
   }
-  
-  #gradient::after {
-    content: '';
-    position: absolute;
-    left: 0; top: 0;
-    width: 100%; height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3));
-  }
-
-
-  .limit {
-    max-height: 850px;
-    overflow:hidden;
-  }
-
-  @media screen and (max-width: 1000px) {
-    back {
-        padding: 0;
-    }
-        .limit {
-            padding: 0px;
-          }
-          #hero {
-            padding: 0px;
-          }
-
-    }
