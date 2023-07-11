@@ -65,7 +65,7 @@ body {
 
 .info-box2 {
   background-color: #025a4e;
-  height: 400px;
+  height: 880px;
   width: 100%;
   border-radius: 15px;
   display: flex;
@@ -155,7 +155,7 @@ color: #025a4e;
   }
 
   .info-box2 {
-    height: 700px;
+    height: 1400px;
   }
 
   .info-box3 {
@@ -266,11 +266,8 @@ flex-direction: column;
     }
   }
 
-  #jlk-pic {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 0px;
+  #jlkpic {
+    margin-top: 25px;
   }
 
   #jlk-text {
@@ -295,4 +292,11 @@ flex-direction: column;
     margin-left: auto;
     margin-right: auto;
    padding: 0px;
+  }
+
+  .project-photos {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 15px;
   }
