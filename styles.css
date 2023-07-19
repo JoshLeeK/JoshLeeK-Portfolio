@@ -157,6 +157,7 @@ color: #025a4e;
 .btn {
   background-color: #F2EFE9;
   color: #025a4e;
+  margin-top: 15px;
 }
 
 .btn:hover {
@@ -164,10 +165,16 @@ color: #025a4e;
   color: #025a4e;
 }
 
-/* .projects {
+.projects {
+/* border-radius: 15px;
+border: 1px solid #F2EFE9; */
+padding: 10px;
 display: flex;
 flex-direction: column;
-} */
+align-items: center;
+justify-content: flex-start;
+text-align: center;
+}
 
 
 /* Social Links */
@@ -249,8 +256,10 @@ flex-direction: column;
   }
 
   .project-photos {
-    width: 100%;
+    width: 75%;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px;
     margin-top: 15px;
   }
@@ -347,4 +356,9 @@ flex-direction: column;
 
 #nev {
   justify-content: end;
+}
+
+.hrcolor {
+  color: #F2EFE9;
+  opacity: 1;
 }
